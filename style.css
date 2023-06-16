@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 20px;
+    padding: 30px;
+}
+
+header nav a{
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 252, 0.418), rgb(0, 0, 252), rgba(0, 0, 252, 0.418) ,transparent);
+    color: aquamarine;
+    min-width: 200px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+nav a{
+    margin: 20px;
+    padding: 20px;
+}
+
+nav a:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: aliceblue;
+    font-size: 35px;
+    padding: 10px 0px 20px 10px;
+}
+
+h2{
+    color: aliceblue;
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 252, 0.418), rgb(0, 0, 252), rgba(0, 0, 252, 0.418) ,transparent);
+    padding: 10px 60px 10px 60px;
+    font-size: 30px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 20px 10px 30px 10px;
+}
+
+p{
+    color: #0476D9;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+b{
+    color: aquamarine;
+}
+
+li{
+    color: #0476D9;
+    font-size: 20px;
+}
+
+.listas article{
+    width: 40%;
+    margin:auto
+    
+}
+
+.listas article li{
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+
+.botao{
+    margin: 50px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    background-color: rgb(0, 0, 252);
+    color: rgb(255, 255, 255);
+    min-width: 200px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+
+}
+
+footer p{
+    background-color: #011640;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
